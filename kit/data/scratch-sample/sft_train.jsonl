@@ -1,0 +1,300 @@
+{"job": "list", "request": "drop oil", "answer": "remove_item item=oil"}
+{"job": "list", "request": "I do not need salt any more", "answer": "remove_item item=salt"}
+{"job": "list", "request": "I need four salt", "answer": "add_item item=salt qty=4"}
+{"job": "list", "request": "we are out of flour, get 3", "answer": "add_item item=flour qty=3"}
+{"job": "list", "request": "four lemons, add it", "answer": "add_item item=lemons qty=4"}
+{"job": "list", "request": "show the shopping list", "answer": "show_list"}
+{"job": "list", "request": "what is on my list?", "answer": "show_list"}
+{"job": "list", "request": "we are out of eggs, get two", "answer": "add_item item=eggs qty=2"}
+{"job": "list", "request": "I need 3 flour", "answer": "add_item item=flour qty=3"}
+{"job": "list", "request": "please buy one sugar", "answer": "add_item item=sugar qty=1"}
+{"job": "list", "request": "add five cheese to my list", "answer": "add_item item=cheese qty=5"}
+{"job": "list", "request": "add 2 carrots to my list", "answer": "add_item item=carrots qty=2"}
+{"job": "list", "request": "put 1 yogurt on the shopping list", "answer": "add_item item=yogurt qty=1"}
+{"job": "list", "request": "remove bread from the list", "answer": "remove_item item=bread"}
+{"job": "list", "request": "add two tea to my list", "answer": "add_item item=tea qty=2"}
+{"job": "list", "request": "drop beans", "answer": "remove_item item=beans"}
+{"job": "list", "request": "I do not need bread any more", "answer": "remove_item item=bread"}
+{"job": "list", "request": "add 1 carrots to my list", "answer": "add_item item=carrots qty=1"}
+{"job": "list", "request": "I do not need rice any more", "answer": "remove_item item=rice"}
+{"job": "list", "request": "please buy 1 rice", "answer": "add_item item=rice qty=1"}
+{"job": "list", "request": "I need 2 oil", "answer": "add_item item=oil qty=2"}
+{"job": "list", "request": "please buy 6 cheese", "answer": "add_item item=cheese qty=6"}
+{"job": "list", "request": "remove tea from the list", "answer": "remove_item item=tea"}
+{"job": "list", "request": "add three yogurt to my list", "answer": "add_item item=yogurt qty=3"}
+{"job": "list", "request": "we are out of coffee, get four", "answer": "add_item item=coffee qty=4"}
+{"job": "list", "request": "add 2 apples to my list", "answer": "add_item item=apples qty=2"}
+{"job": "list", "request": "read my list back to me", "answer": "show_list"}
+{"job": "list", "request": "I need 1 beans", "answer": "add_item item=beans qty=1"}
+{"job": "list", "request": "please buy 3 lemons", "answer": "add_item item=lemons qty=3"}
+{"job": "list", "request": "I need four yogurt", "answer": "add_item item=yogurt qty=4"}
+{"job": "list", "request": "I do not need coffee any more", "answer": "remove_item item=coffee"}
+{"job": "list", "request": "I need 5 butter", "answer": "add_item item=butter qty=5"}
+{"job": "list", "request": "please buy two oil", "answer": "add_item item=oil qty=2"}
+{"job": "list", "request": "remove lemons from the list", "answer": "remove_item item=lemons"}
+{"job": "list", "request": "remove eggs from the list", "answer": "remove_item item=eggs"}
+{"job": "list", "request": "I need five eggs", "answer": "add_item item=eggs qty=5"}
+{"job": "list", "request": "drop pasta", "answer": "remove_item item=pasta"}
+{"job": "list", "request": "what do I still need to buy?", "answer": "show_list"}
+{"job": "list", "request": "add two salt to my list", "answer": "add_item item=salt qty=2"}
+{"job": "list", "request": "we are out of butter, get 4", "answer": "add_item item=butter qty=4"}
+{"job": "list", "request": "add 4 cheese to my list", "answer": "add_item item=cheese qty=4"}
+{"job": "list", "request": "I need 3 onions", "answer": "add_item item=onions qty=3"}
+{"job": "list", "request": "put two soap on the shopping list", "answer": "add_item item=soap qty=2"}
+{"job": "list", "request": "add three sugar to my list", "answer": "add_item item=sugar qty=3"}
+{"job": "list", "request": "add 6 lemons to my list", "answer": "add_item item=lemons qty=6"}
+{"job": "list", "request": "add two carrots to my list", "answer": "add_item item=carrots qty=2"}
+{"job": "list", "request": "take oil off my list", "answer": "remove_item item=oil"}
+{"job": "list", "request": "3 apples, add it", "answer": "add_item item=apples qty=3"}
+{"job": "list", "request": "drop bread", "answer": "remove_item item=bread"}
+{"job": "list", "request": "5 sugar, add it", "answer": "add_item item=sugar qty=5"}
+{"job": "list", "request": "remove beans from the list", "answer": "remove_item item=beans"}
+{"job": "list", "request": "put 6 bread on the shopping list", "answer": "add_item item=bread qty=6"}
+{"job": "list", "request": "drop carrots", "answer": "remove_item item=carrots"}
+{"job": "list", "request": "remove flour from the list", "answer": "remove_item item=flour"}
+{"job": "list", "request": "I need 1 lemons", "answer": "add_item item=lemons qty=1"}
+{"job": "list", "request": "please buy five sugar", "answer": "add_item item=sugar qty=5"}
+{"job": "list", "request": "3 milk, add it", "answer": "add_item item=milk qty=3"}
+{"job": "list", "request": "put four flour on the shopping list", "answer": "add_item item=flour qty=4"}
+{"job": "list", "request": "I do not need pasta any more", "answer": "remove_item item=pasta"}
+{"job": "list", "request": "I do not need tea any more", "answer": "remove_item item=tea"}
+{"job": "list", "request": "take butter off my list", "answer": "remove_item item=butter"}
+{"job": "list", "request": "please buy 2 pasta", "answer": "add_item item=pasta qty=2"}
+{"job": "list", "request": "we are out of tea, get 4", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "we are out of bread, get 1", "answer": "add_item item=bread qty=1"}
+{"job": "list", "request": "5 pasta, add it", "answer": "add_item item=pasta qty=5"}
+{"job": "list", "request": "put 4 beans on the shopping list", "answer": "add_item item=beans qty=4"}
+{"job": "list", "request": "add one apples to my list", "answer": "add_item item=apples qty=1"}
+{"job": "list", "request": "take rice off my list", "answer": "remove_item item=rice"}
+{"job": "list", "request": "put two tea on the shopping list", "answer": "add_item item=tea qty=2"}
+{"job": "list", "request": "add 4 milk to my list", "answer": "add_item item=milk qty=4"}
+{"job": "list", "request": "we are out of butter, get three", "answer": "add_item item=butter qty=3"}
+{"job": "list", "request": "remove butter from the list", "answer": "remove_item item=butter"}
+{"job": "list", "request": "I do not need beans any more", "answer": "remove_item item=beans"}
+{"job": "list", "request": "I do not need flour any more", "answer": "remove_item item=flour"}
+{"job": "list", "request": "we are out of beans, get 5", "answer": "add_item item=beans qty=5"}
+{"job": "list", "request": "I need three flour", "answer": "add_item item=flour qty=3"}
+{"job": "list", "request": "please buy 2 rice", "answer": "add_item item=rice qty=2"}
+{"job": "list", "request": "put five onions on the shopping list", "answer": "add_item item=onions qty=5"}
+{"job": "list", "request": "add 3 milk to my list", "answer": "add_item item=milk qty=3"}
+{"job": "list", "request": "add 1 sugar to my list", "answer": "add_item item=sugar qty=1"}
+{"job": "list", "request": "I do not need eggs any more", "answer": "remove_item item=eggs"}
+{"job": "list", "request": "two sugar, add it", "answer": "add_item item=sugar qty=2"}
+{"job": "list", "request": "remove yogurt from the list", "answer": "remove_item item=yogurt"}
+{"job": "list", "request": "5 flour, add it", "answer": "add_item item=flour qty=5"}
+{"job": "list", "request": "I need 5 beans", "answer": "add_item item=beans qty=5"}
+{"job": "list", "request": "add 5 cheese to my list", "answer": "add_item item=cheese qty=5"}
+{"job": "list", "request": "please buy 1 oil", "answer": "add_item item=oil qty=1"}
+{"job": "list", "request": "please buy 4 oil", "answer": "add_item item=oil qty=4"}
+{"job": "list", "request": "put 4 butter on the shopping list", "answer": "add_item item=butter qty=4"}
+{"job": "list", "request": "take sugar off my list", "answer": "remove_item item=sugar"}
+{"job": "list", "request": "put four tea on the shopping list", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "I need 1 milk", "answer": "add_item item=milk qty=1"}
+{"job": "list", "request": "I need three onions", "answer": "add_item item=onions qty=3"}
+{"job": "list", "request": "we are out of sugar, get 6", "answer": "add_item item=sugar qty=6"}
+{"job": "list", "request": "4 salt, add it", "answer": "add_item item=salt qty=4"}
+{"job": "list", "request": "put 2 soap on the shopping list", "answer": "add_item item=soap qty=2"}
+{"job": "list", "request": "I need two tea", "answer": "add_item item=tea qty=2"}
+{"job": "list", "request": "please buy 6 apples", "answer": "add_item item=apples qty=6"}
+{"job": "list", "request": "4 cheese, add it", "answer": "add_item item=cheese qty=4"}
+{"job": "list", "request": "add four tea to my list", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "put five tea on the shopping list", "answer": "add_item item=tea qty=5"}
+{"job": "list", "request": "we are out of salt, get six", "answer": "add_item item=salt qty=6"}
+{"job": "list", "request": "add 4 bread to my list", "answer": "add_item item=bread qty=4"}
+{"job": "list", "request": "I need 2 tea", "answer": "add_item item=tea qty=2"}
+{"job": "list", "request": "add 6 onions to my list", "answer": "add_item item=onions qty=6"}
+{"job": "list", "request": "put one flour on the shopping list", "answer": "add_item item=flour qty=1"}
+{"job": "list", "request": "drop flour", "answer": "remove_item item=flour"}
+{"job": "list", "request": "take tea off my list", "answer": "remove_item item=tea"}
+{"job": "list", "request": "please buy 2 eggs", "answer": "add_item item=eggs qty=2"}
+{"job": "list", "request": "we are out of soap, get four", "answer": "add_item item=soap qty=4"}
+{"job": "list", "request": "put five rice on the shopping list", "answer": "add_item item=rice qty=5"}
+{"job": "list", "request": "I need one pasta", "answer": "add_item item=pasta qty=1"}
+{"job": "list", "request": "take apples off my list", "answer": "remove_item item=apples"}
+{"job": "list", "request": "drop coffee", "answer": "remove_item item=coffee"}
+{"job": "list", "request": "put one coffee on the shopping list", "answer": "add_item item=coffee qty=1"}
+{"job": "list", "request": "remove rice from the list", "answer": "remove_item item=rice"}
+{"job": "list", "request": "1 lemons, add it", "answer": "add_item item=lemons qty=1"}
+{"job": "list", "request": "we are out of carrots, get two", "answer": "add_item item=carrots qty=2"}
+{"job": "list", "request": "add four rice to my list", "answer": "add_item item=rice qty=4"}
+{"job": "list", "request": "put one lemons on the shopping list", "answer": "add_item item=lemons qty=1"}
+{"job": "list", "request": "put 1 beans on the shopping list", "answer": "add_item item=beans qty=1"}
+{"job": "list", "request": "please buy 5 carrots", "answer": "add_item item=carrots qty=5"}
+{"job": "list", "request": "drop sugar", "answer": "remove_item item=sugar"}
+{"job": "list", "request": "put 4 salt on the shopping list", "answer": "add_item item=salt qty=4"}
+{"job": "list", "request": "take pasta off my list", "answer": "remove_item item=pasta"}
+{"job": "list", "request": "we are out of milk, get one", "answer": "add_item item=milk qty=1"}
+{"job": "list", "request": "please buy four coffee", "answer": "add_item item=coffee qty=4"}
+{"job": "list", "request": "we are out of carrots, get 6", "answer": "add_item item=carrots qty=6"}
+{"job": "list", "request": "please buy 2 bread", "answer": "add_item item=bread qty=2"}
+{"job": "list", "request": "1 butter, add it", "answer": "add_item item=butter qty=1"}
+{"job": "list", "request": "I do not need apples any more", "answer": "remove_item item=apples"}
+{"job": "list", "request": "I need 4 lemons", "answer": "add_item item=lemons qty=4"}
+{"job": "list", "request": "put 5 soap on the shopping list", "answer": "add_item item=soap qty=5"}
+{"job": "list", "request": "drop apples", "answer": "remove_item item=apples"}
+{"job": "list", "request": "take lemons off my list", "answer": "remove_item item=lemons"}
+{"job": "list", "request": "two salt, add it", "answer": "add_item item=salt qty=2"}
+{"job": "list", "request": "we are out of pasta, get five", "answer": "add_item item=pasta qty=5"}
+{"job": "list", "request": "we are out of butter, get two", "answer": "add_item item=butter qty=2"}
+{"job": "list", "request": "put 6 eggs on the shopping list", "answer": "add_item item=eggs qty=6"}
+{"job": "list", "request": "add one cheese to my list", "answer": "add_item item=cheese qty=1"}
+{"job": "list", "request": "add 3 oil to my list", "answer": "add_item item=oil qty=3"}
+{"job": "list", "request": "put two oil on the shopping list", "answer": "add_item item=oil qty=2"}
+{"job": "list", "request": "I need 3 carrots", "answer": "add_item item=carrots qty=3"}
+{"job": "list", "request": "we are out of rice, get four", "answer": "add_item item=rice qty=4"}
+{"job": "list", "request": "please buy four flour", "answer": "add_item item=flour qty=4"}
+{"job": "list", "request": "we are out of soap, get two", "answer": "add_item item=soap qty=2"}
+{"job": "list", "request": "I need five onions", "answer": "add_item item=onions qty=5"}
+{"job": "list", "request": "remove soap from the list", "answer": "remove_item item=soap"}
+{"job": "list", "request": "remove carrots from the list", "answer": "remove_item item=carrots"}
+{"job": "list", "request": "drop yogurt", "answer": "remove_item item=yogurt"}
+{"job": "list", "request": "remove onions from the list", "answer": "remove_item item=onions"}
+{"job": "list", "request": "we are out of onions, get two", "answer": "add_item item=onions qty=2"}
+{"job": "list", "request": "four onions, add it", "answer": "add_item item=onions qty=4"}
+{"job": "list", "request": "2 onions, add it", "answer": "add_item item=onions qty=2"}
+{"job": "list", "request": "please buy 1 soap", "answer": "add_item item=soap qty=1"}
+{"job": "list", "request": "take salt off my list", "answer": "remove_item item=salt"}
+{"job": "list", "request": "I do not need carrots any more", "answer": "remove_item item=carrots"}
+{"job": "list", "request": "3 soap, add it", "answer": "add_item item=soap qty=3"}
+{"job": "list", "request": "we are out of yogurt, get three", "answer": "add_item item=yogurt qty=3"}
+{"job": "list", "request": "add 5 yogurt to my list", "answer": "add_item item=yogurt qty=5"}
+{"job": "list", "request": "we are out of salt, get 1", "answer": "add_item item=salt qty=1"}
+{"job": "list", "request": "please buy six milk", "answer": "add_item item=milk qty=6"}
+{"job": "list", "request": "we are out of yogurt, get 5", "answer": "add_item item=yogurt qty=5"}
+{"job": "list", "request": "I need one bread", "answer": "add_item item=bread qty=1"}
+{"job": "list", "request": "please buy two cheese", "answer": "add_item item=cheese qty=2"}
+{"job": "list", "request": "take beans off my list", "answer": "remove_item item=beans"}
+{"job": "list", "request": "please buy 6 carrots", "answer": "add_item item=carrots qty=6"}
+{"job": "list", "request": "I need four rice", "answer": "add_item item=rice qty=4"}
+{"job": "list", "request": "I need 6 coffee", "answer": "add_item item=coffee qty=6"}
+{"job": "list", "request": "put 4 tea on the shopping list", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "add 4 eggs to my list", "answer": "add_item item=eggs qty=4"}
+{"job": "list", "request": "please buy two apples", "answer": "add_item item=apples qty=2"}
+{"job": "list", "request": "add four yogurt to my list", "answer": "add_item item=yogurt qty=4"}
+{"job": "list", "request": "I need 2 rice", "answer": "add_item item=rice qty=2"}
+{"job": "list", "request": "take coffee off my list", "answer": "remove_item item=coffee"}
+{"job": "list", "request": "put four sugar on the shopping list", "answer": "add_item item=sugar qty=4"}
+{"job": "list", "request": "drop butter", "answer": "remove_item item=butter"}
+{"job": "list", "request": "please buy two tea", "answer": "add_item item=tea qty=2"}
+{"job": "list", "request": "put one butter on the shopping list", "answer": "add_item item=butter qty=1"}
+{"job": "list", "request": "I need 2 yogurt", "answer": "add_item item=yogurt qty=2"}
+{"job": "list", "request": "3 bread, add it", "answer": "add_item item=bread qty=3"}
+{"job": "list", "request": "4 tea, add it", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "please buy 2 flour", "answer": "add_item item=flour qty=2"}
+{"job": "list", "request": "add 3 onions to my list", "answer": "add_item item=onions qty=3"}
+{"job": "list", "request": "take bread off my list", "answer": "remove_item item=bread"}
+{"job": "list", "request": "one apples, add it", "answer": "add_item item=apples qty=1"}
+{"job": "list", "request": "drop rice", "answer": "remove_item item=rice"}
+{"job": "list", "request": "I need six beans", "answer": "add_item item=beans qty=6"}
+{"job": "list", "request": "add 1 yogurt to my list", "answer": "add_item item=yogurt qty=1"}
+{"job": "list", "request": "please buy 2 lemons", "answer": "add_item item=lemons qty=2"}
+{"job": "list", "request": "put five beans on the shopping list", "answer": "add_item item=beans qty=5"}
+{"job": "list", "request": "I need 4 flour", "answer": "add_item item=flour qty=4"}
+{"job": "list", "request": "add 2 coffee to my list", "answer": "add_item item=coffee qty=2"}
+{"job": "list", "request": "add 1 butter to my list", "answer": "add_item item=butter qty=1"}
+{"job": "list", "request": "remove cheese from the list", "answer": "remove_item item=cheese"}
+{"job": "list", "request": "I need 5 cheese", "answer": "add_item item=cheese qty=5"}
+{"job": "list", "request": "please buy 4 beans", "answer": "add_item item=beans qty=4"}
+{"job": "list", "request": "put 5 lemons on the shopping list", "answer": "add_item item=lemons qty=5"}
+{"job": "list", "request": "add three carrots to my list", "answer": "add_item item=carrots qty=3"}
+{"job": "list", "request": "add three salt to my list", "answer": "add_item item=salt qty=3"}
+{"job": "list", "request": "put 3 oil on the shopping list", "answer": "add_item item=oil qty=3"}
+{"job": "list", "request": "we are out of bread, get 2", "answer": "add_item item=bread qty=2"}
+{"job": "list", "request": "take carrots off my list", "answer": "remove_item item=carrots"}
+{"job": "list", "request": "add 3 soap to my list", "answer": "add_item item=soap qty=3"}
+{"job": "list", "request": "add 5 carrots to my list", "answer": "add_item item=carrots qty=5"}
+{"job": "list", "request": "add 5 coffee to my list", "answer": "add_item item=coffee qty=5"}
+{"job": "list", "request": "drop eggs", "answer": "remove_item item=eggs"}
+{"job": "list", "request": "three apples, add it", "answer": "add_item item=apples qty=3"}
+{"job": "list", "request": "I need 4 tea", "answer": "add_item item=tea qty=4"}
+{"job": "list", "request": "we are out of yogurt, get 4", "answer": "add_item item=yogurt qty=4"}
+{"job": "list", "request": "put 2 pasta on the shopping list", "answer": "add_item item=pasta qty=2"}
+{"job": "list", "request": "I need six eggs", "answer": "add_item item=eggs qty=6"}
+{"job": "list", "request": "remove sugar from the list", "answer": "remove_item item=sugar"}
+{"job": "list", "request": "drop soap", "answer": "remove_item item=soap"}
+{"job": "list", "request": "four sugar, add it", "answer": "add_item item=sugar qty=4"}
+{"job": "list", "request": "take milk off my list", "answer": "remove_item item=milk"}
+{"job": "list", "request": "please buy six onions", "answer": "add_item item=onions qty=6"}
+{"job": "list", "request": "please buy 1 yogurt", "answer": "add_item item=yogurt qty=1"}
+{"job": "list", "request": "please buy four salt", "answer": "add_item item=salt qty=4"}
+{"job": "list", "request": "2 salt, add it", "answer": "add_item item=salt qty=2"}
+{"job": "list", "request": "I need 4 oil", "answer": "add_item item=oil qty=4"}
+{"job": "list", "request": "we are out of salt, get 2", "answer": "add_item item=salt qty=2"}
+{"job": "list", "request": "add two onions to my list", "answer": "add_item item=onions qty=2"}
+{"job": "list", "request": "please buy 1 coffee", "answer": "add_item item=coffee qty=1"}
+{"job": "list", "request": "add 6 soap to my list", "answer": "add_item item=soap qty=6"}
+{"job": "list", "request": "put four milk on the shopping list", "answer": "add_item item=milk qty=4"}
+{"job": "list", "request": "please buy two sugar", "answer": "add_item item=sugar qty=2"}
+{"job": "list", "request": "three tea, add it", "answer": "add_item item=tea qty=3"}
+{"job": "list", "request": "put three tea on the shopping list", "answer": "add_item item=tea qty=3"}
+{"job": "list", "request": "I do not need milk any more", "answer": "remove_item item=milk"}
+{"job": "list", "request": "6 eggs, add it", "answer": "add_item item=eggs qty=6"}
+{"job": "list", "request": "I need four pasta", "answer": "add_item item=pasta qty=4"}
+{"job": "list", "request": "put six rice on the shopping list", "answer": "add_item item=rice qty=6"}
+{"job": "list", "request": "put five butter on the shopping list", "answer": "add_item item=butter qty=5"}
+{"job": "list", "request": "I need 1 salt", "answer": "add_item item=salt qty=1"}
+{"job": "list", "request": "we are out of flour, get 1", "answer": "add_item item=flour qty=1"}
+{"job": "list", "request": "we are out of oil, get 3", "answer": "add_item item=oil qty=3"}
+{"job": "list", "request": "I need three coffee", "answer": "add_item item=coffee qty=3"}
+{"job": "list", "request": "add three coffee to my list", "answer": "add_item item=coffee qty=3"}
+{"job": "list", "request": "we are out of apples, get one", "answer": "add_item item=apples qty=1"}
+{"job": "list", "request": "drop milk", "answer": "remove_item item=milk"}
+{"job": "list", "request": "1 coffee, add it", "answer": "add_item item=coffee qty=1"}
+{"job": "list", "request": "add 6 carrots to my list", "answer": "add_item item=carrots qty=6"}
+{"job": "list", "request": "please buy 4 lemons", "answer": "add_item item=lemons qty=4"}
+{"job": "list", "request": "we are out of pasta, get 4", "answer": "add_item item=pasta qty=4"}
+{"job": "list", "request": "2 eggs, add it", "answer": "add_item item=eggs qty=2"}
+{"job": "list", "request": "please buy 5 apples", "answer": "add_item item=apples qty=5"}
+{"job": "list", "request": "drop salt", "answer": "remove_item item=salt"}
+{"job": "list", "request": "put 4 onions on the shopping list", "answer": "add_item item=onions qty=4"}
+{"job": "list", "request": "I need 2 salt", "answer": "add_item item=salt qty=2"}
+{"job": "list", "request": "we are out of sugar, get six", "answer": "add_item item=sugar qty=6"}
+{"job": "list", "request": "take eggs off my list", "answer": "remove_item item=eggs"}
+{"job": "list", "request": "take flour off my list", "answer": "remove_item item=flour"}
+{"job": "list", "request": "we are out of eggs, get 2", "answer": "add_item item=eggs qty=2"}
+{"job": "list", "request": "6 apples, add it", "answer": "add_item item=apples qty=6"}
+{"job": "list", "request": "we are out of milk, get 2", "answer": "add_item item=milk qty=2"}
+{"job": "list", "request": "please buy 4 bread", "answer": "add_item item=bread qty=4"}
+{"job": "list", "request": "I need 1 pasta", "answer": "add_item item=pasta qty=1"}
+{"job": "list", "request": "we are out of soap, get 3", "answer": "add_item item=soap qty=3"}
+{"job": "list", "request": "we are out of carrots, get five", "answer": "add_item item=carrots qty=5"}
+{"job": "list", "request": "I need four flour", "answer": "add_item item=flour qty=4"}
+{"job": "list", "request": "we are out of cheese, get 3", "answer": "add_item item=cheese qty=3"}
+{"job": "list", "request": "we are out of sugar, get 2", "answer": "add_item item=sugar qty=2"}
+{"job": "list", "request": "drop onions", "answer": "remove_item item=onions"}
+{"job": "list", "request": "I do not need sugar any more", "answer": "remove_item item=sugar"}
+{"job": "list", "request": "drop tea", "answer": "remove_item item=tea"}
+{"job": "list", "request": "we are out of soap, get three", "answer": "add_item item=soap qty=3"}
+{"job": "list", "request": "add two apples to my list", "answer": "add_item item=apples qty=2"}
+{"job": "list", "request": "please buy 4 carrots", "answer": "add_item item=carrots qty=4"}
+{"job": "list", "request": "put five pasta on the shopping list", "answer": "add_item item=pasta qty=5"}
+{"job": "list", "request": "I do not need lemons any more", "answer": "remove_item item=lemons"}
+{"job": "list", "request": "I need 5 salt", "answer": "add_item item=salt qty=5"}
+{"job": "list", "request": "put 6 salt on the shopping list", "answer": "add_item item=salt qty=6"}
+{"job": "list", "request": "please buy five pasta", "answer": "add_item item=pasta qty=5"}
+{"job": "list", "request": "I need five beans", "answer": "add_item item=beans qty=5"}
+{"job": "list", "request": "please buy one eggs", "answer": "add_item item=eggs qty=1"}
+{"job": "list", "request": "put 2 bread on the shopping list", "answer": "add_item item=bread qty=2"}
+{"job": "list", "request": "add 1 cheese to my list", "answer": "add_item item=cheese qty=1"}
+{"job": "list", "request": "I need 6 sugar", "answer": "add_item item=sugar qty=6"}
+{"job": "list", "request": "we are out of soap, get six", "answer": "add_item item=soap qty=6"}
+{"job": "list", "request": "please buy four carrots", "answer": "add_item item=carrots qty=4"}
+{"job": "list", "request": "add 1 beans to my list", "answer": "add_item item=beans qty=1"}
+{"job": "list", "request": "remove pasta from the list", "answer": "remove_item item=pasta"}
+{"job": "list", "request": "put 1 milk on the shopping list", "answer": "add_item item=milk qty=1"}
+{"job": "list", "request": "we are out of coffee, get 6", "answer": "add_item item=coffee qty=6"}
+{"job": "list", "request": "I need 1 soap", "answer": "add_item item=soap qty=1"}
+{"job": "list", "request": "we are out of eggs, get 5", "answer": "add_item item=eggs qty=5"}
+{"job": "list", "request": "please buy 4 flour", "answer": "add_item item=flour qty=4"}
+{"job": "list", "request": "put 6 apples on the shopping list", "answer": "add_item item=apples qty=6"}
+{"job": "list", "request": "I need 5 apples", "answer": "add_item item=apples qty=5"}
+{"job": "list", "request": "we are out of butter, get 2", "answer": "add_item item=butter qty=2"}
+{"job": "list", "request": "put one soap on the shopping list", "answer": "add_item item=soap qty=1"}
+{"job": "list", "request": "I need 6 beans", "answer": "add_item item=beans qty=6"}
+{"job": "list", "request": "please buy three coffee", "answer": "add_item item=coffee qty=3"}
+{"job": "list", "request": "3 cheese, add it", "answer": "add_item item=cheese qty=3"}
+{"job": "list", "request": "I need 3 butter", "answer": "add_item item=butter qty=3"}
+{"job": "list", "request": "put one bread on the shopping list", "answer": "add_item item=bread qty=1"}
+{"job": "list", "request": "please buy five flour", "answer": "add_item item=flour qty=5"}
+{"job": "list", "request": "please buy five coffee", "answer": "add_item item=coffee qty=5"}
+{"job": "list", "request": "I need 2 carrots", "answer": "add_item item=carrots qty=2"}

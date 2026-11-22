@@ -36,8 +36,8 @@ Read [GUIDE.md](GUIDE.md) before step 5. It explains each step, what to measure,
 
 ## What is here
 
-- [`GUIDE.md`](GUIDE.md): pick your path, data, install, train, measure, ship, train from scratch, the nine mistakes, the pre-flight checklist.
-- [`kit/`](kit/): runnable scripts and a tiny made-up sample dataset (see [`kit/README.md`](kit/README.md)).
+- [`GUIDE.md`](GUIDE.md): pick your path, data, install, train, measure, ship, train from scratch (chapter 7, with the model I trained, [Maris3D SLM Blender Tiny 0.02B](https://huggingface.co/slm4apps/Maris3D-Blender/tree/tiny-0.02b-preview), and [the article about it](https://www.linkedin.com/pulse/how-small-can-blender-model-go-maris3d-tiny-002b-zino-adidi-wt0xf/)), the nine mistakes, the pre-flight checklist.
+- [`kit/`](kit/): runnable scripts (including `train_from_scratch.py`) and tiny made-up sample datasets (see [`kit/README.md`](kit/README.md)).
 - [`CHANGELOG.md`](CHANGELOG.md), [`CONTRIBUTING.md`](CONTRIBUTING.md): how it changes, and how to add a lesson.
 
 ## Honest limits

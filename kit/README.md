@@ -6,10 +6,12 @@ Generic, runnable scripts for the steps in [`../GUIDE.md`](../GUIDE.md). Standar
 |---|---|---|
 | `smoke.sh` | proves a setup works; `--dry-run` trains nothing | shell, Python 3 |
 | `make_sample_data.py` | writes the made-up sample dataset (`data/sample/`) | Python 3 |
+| `make_scratch_sample.py` | writes a made-up dataset for the from-scratch trainer (`data/scratch-sample/`) | Python 3 |
 | `prepare_data.py` | `check` (format, leaks between splits) and `per-turn` (MLX rows) | Python 3 |
 | `inspect_rows.py` | decodes rows with the learned span marked | transformers |
 | `train_lora_mlx.sh`, `mlx_capped.py` | LoRA on Apple silicon with a memory cap and checks | mlx-lm |
 | `train_lora_cuda.py` | LoRA with PyTorch + PEFT; `--check-gpu`, `--dry-run` | torch, peft, transformers |
+| `train_from_scratch.py` | train a small Llama-shaped model from nothing, own tokenizer, two stages (chapter 7) | torch, transformers, tokenizers |
 | `merge_lora.py` | merge a PEFT adapter into its base, optionally scaled | torch, peft |
 | `blend_lora.py` | exact blend of two adapters from one run | torch, safetensors |
 | `average_checkpoints.py` | weight-average full-model checkpoints (from scratch) | torch, safetensors |
@@ -27,8 +29,14 @@ The scripts are generic versions of the ones I trained with. They were checked w
 version applies LoRA keys to `embed_tokens` and `lm_head` (look at the trainable-parameter line), the checkpoint file names
 your `mlx_lm` writes, and that your `mlx_lm` version reads a `tools` field in chat rows (the per-turn rows carry one). Run `smoke.sh --path ...` first.
 
+`train_from_scratch.py` is the script the Tiny model (Maris3D SLM Blender Tiny 0.02B) was trained with. It was smoke-tested here with `--smoke` on the sample from `make_scratch_sample.py`.
+
 ## The sample dataset
 
 `data/sample/` is a made-up shopping-list assistant: 120 train, 20 valid and 20 test conversations, each a request, a tool
 call, a tool reply and a short answer. `make_sample_data.py` writes it deterministically. It exists to prove the pipeline, not to teach a
 useful model.
+
+`data/scratch-sample/` is the same world for training from scratch: about 400 short made-up documents for stage 1, and 300 train and 40 valid
+request-to-answer rows (`add_item item=milk qty=2`, `remove_item item=milk`, `show_list`). `make_scratch_sample.py` writes it
+deterministically. It proves the path, nothing more.

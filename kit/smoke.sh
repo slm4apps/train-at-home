@@ -32,6 +32,8 @@ ok() { echo "OK   $1"; }
 for f in "$HERE"/*.py; do "$PY" -m py_compile "$f"; done && ok "every kit script compiles"
 for f in "$HERE"/*.sh; do sh -n "$f"; done && ok "every kit shell script parses"
 "$PY" "$HERE/train_lora_cuda.py" --help >/dev/null && ok "train_lora_cuda.py --help"
+"$PY" "$HERE/make_scratch_sample.py" "$WORK/data-scratch" >/dev/null && ok "scratch sample data written"
+"$PY" "$HERE/train_from_scratch.py" --help >/dev/null 2>&1 && ok "train_from_scratch.py --help" || echo "MISS torch/transformers/tokenizers (only needed for training from scratch)"
 DRY_RUN=1 sh "$HERE/train_lora_mlx.sh" some/base "$WORK/data-turns" "$WORK/mlx-out" >/dev/null </dev/null && ok "train_lora_mlx.sh dry run"
 for t in llama-server; do command -v "$t" >/dev/null 2>&1 && ok "$t found" || echo "MISS $t (needed for scoring and serving checks: install llama.cpp)"; done
 "$PY" -c "import mlx_lm" 2>/dev/null && ok "mlx_lm importable" || echo "MISS mlx_lm (only needed for the MLX path)"

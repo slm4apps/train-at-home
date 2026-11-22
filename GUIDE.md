@@ -428,6 +428,11 @@ Everything above adapts a model that already exists. I also trained one from not
 pretrained weights. A Llama-shaped model (10 layers, width 384, 6 heads, context 2,048), made in two stages. That is small
 enough to train on a laptop, and I learned four things only by doing it. `kit/average_checkpoints.py` covers the last of them.
 
+The model is **Maris3D SLM Blender Tiny 0.02B** (24.5M parameters). The preview is on Hugging Face:
+<https://huggingface.co/slm4apps/Maris3D-Blender/tree/tiny-0.02b-preview>. The story is in the article
+[How small can a Blender model go?](https://www.linkedin.com/pulse/how-small-can-blender-model-go-maris3d-tiny-002b-zino-adidi-wt0xf/).
+`kit/train_from_scratch.py` is the script it was trained with.
+
 ### 7.1 Size the tokenizer before the model
 
 The embedding table is vocabulary size times model width. At width 384:
@@ -484,6 +489,35 @@ test that finds this is a handful of prompts with exact numbers in them, at temp
 whether your application reads exact values with code instead of asking the model.
 
 The adapter lessons of chapter 8 still apply, especially: score on the job.
+
+### 7.6 Run it
+
+Make the made-up sample (a shopping-list assistant, no outside text) and check the whole path in about a minute on the CPU:
+
+```sh
+python3 kit/make_scratch_sample.py                      # writes kit/data/scratch-sample/
+python3 kit/train_from_scratch.py --data kit/data/scratch-sample --out out/scratch-smoke --device cpu --smoke
+```
+
+`--smoke` trains a toy-sized model for 30 steps per stage. The log ends with the event `"done"` when it worked. It proves the
+path, nothing more. For the real run, bring your own data in the same layout (`pretrain.txt`, `pretrain_val.txt`,
+`sft_train.jsonl`, `sft_val.jsonl`, `format_words.json`) and leave the sizes at their defaults, which are this chapter's model:
+
+```sh
+python3 kit/train_from_scratch.py --data YOUR_DATA --out out/scratch --device cuda
+```
+
+It writes the tokenizer and the stage 1 model into `out/scratch`, and keeps the best few fine-tune checkpoints there as
+`sft-ck-<step>` (by held-out loss; pick by task scores, 7.3). To pause, touch `out/scratch/PAUSE`; the next start resumes.
+Then average and convert:
+
+```sh
+python3 kit/average_checkpoints.py out/blend out/scratch/sft-ck-A:1 out/scratch/sft-ck-B:1 out/scratch/sft-ck-C:1
+kit/convert_gguf.sh model out/blend out/tiny-q8_0.gguf q8_0
+```
+
+Before the conversion, register the tokenizer's pre-tokenizer as `gpt-2` in your llama.cpp checkout (7.1), or the converter will
+not know it. Replace A, B and C with the step numbers of the checkpoints you picked.
 
 ---
 
