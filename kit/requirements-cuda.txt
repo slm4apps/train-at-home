@@ -1,0 +1,7 @@
+# Old NVIDIA path. Install torch FIRST, from the CUDA 11.8 index (see GUIDE.md, "CUDA path"):
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu118
+# then:  pip install -r kit/requirements-cuda.txt
+# Versions below are the ones that ran next to torch 2.6.0+cu118 for me; peft I did not pin.
+transformers==5.22.1
+safetensors==0.8.0
+peft

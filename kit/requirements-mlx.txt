@@ -1,0 +1,2 @@
+# Apple-silicon path (8 GB Mac). Versions are the ones I trained with.
+mlx-lm==0.32.2

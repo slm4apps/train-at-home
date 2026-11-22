@@ -1,0 +1,4 @@
+# GGUF conversion and cleaning. Needs a llama.cpp checkout too (see convert_gguf.sh).
+gguf==0.17.1
+safetensors==0.8.0
+numpy

@@ -1,0 +1,9 @@
+TASK-FROM-OWNER.md
+REVIEW-FOR-OWNER.md
+run.log
+__pycache__/
+*.pyc
+.venv/
+out/
+*.gguf
+*.safetensors
